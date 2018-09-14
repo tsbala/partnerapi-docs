@@ -47,7 +47,7 @@ delete:
         schema:
           type: object
           properties:
-            restaurantIds:
+            restaurants:
               description: An array of JUST EAT restaurant ids served by the pool.  
               type: array
               items:
