@@ -36,6 +36,10 @@ info:
   x-logo:
     url: "https://raw.githubusercontent.com/justeat/partnerapi-docs/master/web/logo-just-eat.png"
   description: "# Getting Started
+
+  ## Swagger UI
+
+  Our API docs are also available via swagger UI, see https://justeat.github.io/partnerapi-docs/swagger-ui
   
   ## Security
   
