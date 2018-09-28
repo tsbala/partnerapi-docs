@@ -10,7 +10,8 @@ post:
     - name: restaurantReference
       in: path
       required: true
-      type: string
+      schema:
+        type: string
   requestBody:
     required: true
     description: KML file describing the restauarant's delivery area

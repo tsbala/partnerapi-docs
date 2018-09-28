@@ -97,8 +97,6 @@ info:
   
   If it is not possible to record timestamps in local time, timestamps may be recorded in UTC time with a 00:00 offset.
   "
-schemes:
-- https
 components:
   securitySchemes:
     API Key:
@@ -111,10 +109,6 @@ components:
       case sensitive."
 security:
   - API Key: []
-consumes:
-  - application/json
-produces:
-- application/json
 tags:
   - name: restaurant-api
     x-displayName: Restaurant API
