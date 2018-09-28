@@ -6,7 +6,8 @@ put:
     - name: orderId
       in: path
       required: true
-      type: string
+      schema:
+        type: string
   requestBody:
     required: true
     content:

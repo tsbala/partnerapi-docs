@@ -3,7 +3,8 @@ parameters:
     in: path
     required: true
     description: Identifier for the pool	
-    type: string
+    schema:
+      type: string
 get:
   tags:
   - delivery-pools-api

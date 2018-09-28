@@ -5,6 +5,7 @@ servers:
     description: live / production
     variables:
       country:
+        default: uk
         enum:
           - au
           - ca
@@ -18,6 +19,7 @@ servers:
     description: test / staging
     variables:
       country:
+        default: uk
         enum:
           - au
           - ca
