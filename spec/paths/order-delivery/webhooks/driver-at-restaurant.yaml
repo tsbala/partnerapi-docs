@@ -3,9 +3,6 @@ put:
   - order-delivery-webhooks
   summary: Driver at restaurant
   description: ""
-  consumes: []
-  produces:
-  - application/json
   requestBody:
     required: true
     content:

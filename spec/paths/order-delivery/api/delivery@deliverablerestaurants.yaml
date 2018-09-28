@@ -6,17 +6,20 @@ get:
     - name: toLat
       in: query
       required: false
-      type: number
-      format: double
+      schema:
+        type: number
+        format: double
     - name: toLon
       in: query
       required: false
-      type: number
-      format: double
+      schema:
+        type: number
+        format: double
     - name: toPostcode
       in: query
       required: false
-      type: string
+      schema:
+        type: string
   responses:
     '200':
       description: OK

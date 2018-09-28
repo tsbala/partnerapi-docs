@@ -3,9 +3,6 @@ put:
   - order-delivery-webhooks
   summary: Driver at delivery address
   description: ""
-  consumes: []
-  produces:
-  - application/json
   requestBody:
     required: true
     content:

@@ -3,9 +3,6 @@ put:
   - order-delivery-webhooks
   summary: Order requires delivery acceptance
   description: This webhook will be invoked when we have determined that an order is required acceptance for delivery. Upon receiving the request, the order should be scheduled for pickup by a courier/driver. We expect an immediate `201` response from this webhook to denote that you have received the request.
-  consumes: []
-  produces:
-  - application/json
   requestBody:
     required: true
     content:
