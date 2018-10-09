@@ -84,9 +84,6 @@ properties:
         type: number
         format: double
         description: Restaurant address latitude. Will be 0 if not provided.
-      DispatchMethod: 
-        type: string
-        description: JUST EAT device used by the Restaurant.
       EmailAddress: 
         type: string
         description: Email address for the Restaurant.
