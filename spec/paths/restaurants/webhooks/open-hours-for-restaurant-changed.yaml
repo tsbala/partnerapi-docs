@@ -30,9 +30,9 @@ post:
                   OpenTime:
                     type: string
                     description: The open time (HH:mm)
-                  ClosedTime:
+                  CloseTime:
                     type: string
-                    description: The closed time (HH:mm) (Wide clock, ie, if before start it is following day)
+                    description: The close time (HH:mm) (Wide clock, ie, if before start it is following day)
                   Closed:
                     type: boolean
                     description: The restaurant is closed for the day
