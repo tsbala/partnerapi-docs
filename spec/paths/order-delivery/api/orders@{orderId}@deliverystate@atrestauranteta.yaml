@@ -16,9 +16,11 @@ put:
           type: object
           properties:
             estimatedAt: 
+              description: This is the time at which you are doing the estimation
               type: string
               format: date-time
             bestGuess:
+              description: This should represent the delivery partner's best guess at when the driver will arrive at the restaurant.
               type: string
               format: date-time
   responses:
