@@ -158,6 +158,8 @@ tags:
     x-displayName: Restaurant Webhooks
   - name: order-acceptance-api
     x-displayName: Order Acceptance API
+  - name: order-acceptance-webhooks
+    x-displayName: Order Acceptance Webhooks
   - name: order-api
     x-displayName: Order API
   - name: order-webhooks
@@ -175,6 +177,7 @@ x-tagGroups:
   - name: Order Acceptance
     tags:
       - order-acceptance-api
+      - order-acceptance-webhooks
   - name: Orders
     tags:
       - order-api

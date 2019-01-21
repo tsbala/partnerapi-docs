@@ -1,0 +1,20 @@
+type: array
+items:
+  type: object
+  properties:
+    Reference:
+      type: string
+    OptionReference:
+      type: string
+    Description:
+      type: string
+    Quantity:
+      type: string
+    UnitPrice:
+      format: money
+      type: string
+    TotalPrice:
+      format: money
+      type: string
+    Items:
+      "$ref": "#/definitions/order-item"
