@@ -2,8 +2,6 @@ type: object
 properties:
   OrderId:
     type: string
-  OrderReference:
-    type: string
   AcceptedFor:
     format: date-time
     type: string
@@ -11,7 +9,6 @@ properties:
     type: string
 example:
   OrderId: '123456'
-  OrderReference: '654321'
   AcceptedFor: '2018-03-10T14:45:28Z'
-  Event: 'OrderAcceptedByRestaurant'
+  Event: 'OrderAccepted'
   
