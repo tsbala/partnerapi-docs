@@ -15,6 +15,22 @@ Preview (when using a branch) `[branch]`: https://justeat.github.io/partnerapi-d
 1. Install [Node JS](https://nodejs.org/)
 2. Clone repo and `cd`
     + Run `npm install`
+3. Newer versions of npm will fail with an error similar to:
+
+```javascript
+ gulp[11376]: src\node_contextify.cc:629: Assertion `args[1]->IsString()' failed.
+ 1: node::DecodeWrite
+ 2: node::DecodeWrite
+ 3: uv_loop_fork
+ 4: v8::internal::interpreter::BytecodeDecoder::Decode
+ 5: v8::internal::RegExpImpl::Exec
+ 6: v8::internal::RegExpImpl::Exec
+ 7: v8::internal::RegExpImpl::Exec
+ 8: 00000384E1284281
+ ```
+
++ To fix this run `npm install natives`
+
 
 ### Usage
 
